@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="El_RabeaMIS.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>El-Rabea MIS</title>
+    <link rel="stylesheet" href="Css/Prices_List_Style_Sheet.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="BigDiv">
+            <div class="HeaderDiv">
+                <p class="HeaderPargraph">
+                    El-Rabea MIS
+                </p>
+            </div>
+            <div class="BarDiv">
+                <asp:Button ID="btnNewLoad" runat="server" Text="حمولة جديدة" CausesValidation="false" CssClass="ButtonAddStyle3" OnClick="btnNewLoad_Click"/>
+                <asp:Button ID="btnOldLoad" runat="server" Text="حمولة قديمة" CausesValidation="false" CssClass="ButtonAddStyle3" OnClick="btnOldLoad_Click"/>
+                <asp:Button ID="BtnInventory" runat="server" Text="كشف حساب" CausesValidation="false" CssClass="ButtonAddStyle3" OnClick="BtnInventory_Click"/>
+                <asp:Button ID="BtnSearch" runat="server" Text="استعلام" CausesValidation="false" CssClass="ButtonAddStyle3" OnClick="BtnSearch_Click"/>
+            </div>
+            <div class="ContentDiv">
+                <asp:ContentPlaceHolder ID="placeHolderContentDiv" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="FooterDiv">
+                <p class="FooterP">
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

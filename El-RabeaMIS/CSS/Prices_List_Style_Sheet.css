@@ -1,0 +1,380 @@
+﻿body {
+    margin: 0;
+}
+
+P {
+    margin: 0;
+}
+
+.HeaderDiv {
+    height: 40px;
+    padding: 15px;
+    padding-bottom: 25px;
+    background-color: #fff;
+}
+
+.HeaderPargraph {
+    font-family: 'Book Antiqua';
+    font-size: 45px;
+    font-weight: 800;
+    height: 100px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.BarDiv {
+    width: 980px;
+    height: 40px;
+    background-color: #1abc9c;
+    padding-top: 10px;
+    direction: rtl;
+    padding-right: 20px;
+}
+
+.BigDiv {
+    width: 1000px;
+    height:auto;
+    margin: 5px auto;
+    border: 2px solid #808080;
+    border-top: 30px solid #bdc3c7;
+    margin-bottom: 5px;
+}
+
+.ContentDiv {
+    width: 960px;
+    min-height: 420px;
+    direction: rtl;
+    padding: 20px;
+}
+
+.FooterDiv {
+    width: 1000px;
+    height: 50px;
+    background-color: #bdc3c7;
+}
+
+.FooterP {
+    font-family: 'Book Antiqua';
+    font-size: 22px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.FooterSP {
+    font-family: 'Book Antiqua';
+    font-size: 22px;
+    font-weight: 600;
+    color: #2980b9;
+    font-style: oblique;
+}
+
+.BarLinkButtons {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-family: Tahoma;
+    font-size: 18px;
+    height: 100%;
+    margin: 10px;
+}
+
+    .BarLinkButtons:hover {
+        color: #2c3e50;
+    }
+
+.Labels {
+    font: 600 16px arial;
+}
+
+.TextBoxs, .TextBoxs2, .multiLineTxt, .multiLinelbl {
+    width: 450px;
+    font: 600 14px arial;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.TextBoxs2 {
+    width: 150px;
+}
+
+.multiLineTxt {
+    height: 150px;
+}
+
+.multiLinelbl {
+    max-width: 300px;
+    border: none;
+    border-color: white;
+}
+
+.ContentTable {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-spacing: 0px;
+}
+
+.ButtonTable {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.ButtonTD {
+    width: 100%;
+    text-align: center;
+}
+
+.ButtonAddStyle, .ButtonAddStyle2, .ButtonAddStyle3, .ButtonAddStyle4 {
+    font: 600 13px arial;
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+    .ButtonAddStyle:hover {
+        cursor: pointer;
+        background-color: #16a085;
+    }
+
+.ButtonAddStyle2 {
+    background-color: #34495e;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font: 600 14px arial;
+    margin-left: 20px;
+}
+
+    .ButtonAddStyle2:hover {
+        cursor: pointer;
+        background-color: #2c3e50;
+    }
+
+.ButtonAddStyle3 {
+    background-color: #34495e;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font: 600 14px arial;
+    margin-left: 20px;
+}
+
+    .ButtonAddStyle3:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+.ButtonAddStyle4 {
+    background-color: #2980b9;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font: 600 14px arial;
+}
+
+    .ButtonAddStyle4:hover {
+        cursor: pointer;
+    }
+
+.Error_Message_Label {
+    font: 400;
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.DropDownListTable {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+    .DropDownListTable td {
+        width: 100%;
+        text-align: center;
+    }
+
+.DropDownListStyle {
+    width: 350px;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.LabelERR {
+    font: 400;
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.LabelERRTD {
+    width: 100%;
+    text-align: center;
+}
+
+.ButtondeleteStyle {
+    text-decoration: none;
+    width: 75px;
+    height: 50px;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    background-color: #2c3e50;
+    border: 2px solid #2c3e50;
+}
+
+    .ButtondeleteStyle:hover {
+        cursor: pointer;
+        background-color: #34495e;
+    }
+
+.Defaultpagetable {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0px;
+}
+
+    .Defaultpagetable td {
+        text-align: center;
+        vertical-align: central;
+    }
+
+.GridStyle {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    direction: rtl;
+    font: 13px arial;
+    border-width: 0px;
+}
+
+.Row_Style {
+    background-color: white;
+    height: 25px;
+    font: 600 13px arial;
+}
+
+.AlternatRowStyle {
+    background-color: #bdc3c7;
+    height: 25px;
+    font: 600 13px arial;
+}
+
+.headerStyle, .headerStyle2 {
+    background-color: #1abc9c;
+    height: 30px;
+    font: 600 15px arial;
+    color: white;
+}
+
+.headerStyle2 {
+    background-color: #2c3e50;
+}
+
+.Search_Section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.SearchOptions {
+    font: bold 15px arial;
+    width: auto;
+    height: auto;
+    margin: 0 200px 0 0;
+}
+
+.Search_table {
+    direction: rtl;
+    border-spacing: 0px;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #2c3e50;
+    margin: 0 auto;
+    border-radius: 5px 5px;
+}
+
+.Image_td {
+    vertical-align: middle;
+}
+
+.Search_Button {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #2c3e50;
+}
+
+.Search_TextBox {
+    height: 24px;
+    width: 500px;
+    font: 600 14px arial;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: White;
+    border-style: None;
+    border-width: 0px;
+}
+
+.lblInfo {
+    font: bold 14px arial;
+}
+
+.lblInfo2 {
+    font: 600 14px arial;
+    color: #2c3e50;
+}
+
+.lblInfo11 {
+    font: bold 16px arial;
+}
+
+.lblInfo22 {
+    font: bold 16px arial;
+}
+
+.SelectDate {
+    font: 600 14px arial;
+    padding: 5px;
+    width: 130px;
+    margin: 0;
+}
+
+    .SelectDate option {
+        font: 500 14px arial;
+    }
+
+.DateChoicesList {
+    width: 100px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ContainerPanel {
+    max-height: 750px;
+    overflow: auto;
+}
+
+.ContactsSection {
+    border-radius: 8px;
+    width: 99%;
+    text-align: right;
+    direction: rtl;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    min-height: 260px;
+}

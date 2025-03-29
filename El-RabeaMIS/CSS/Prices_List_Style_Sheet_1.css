@@ -329,20 +329,24 @@ P {
 }
 
 .lblInfo {
-    font: bold 14px arial;
+    font: 800 15px arial;
+}
+
+.lblInfo-new {
+    font: bold 17px arial;
 }
 
 .lblInfo2 {
-    font: 600 14px arial;
+    font: 800 15px arial;
     color: #2c3e50;
 }
 
 .lblInfo11 {
-    font: bold 16px arial;
+    font: 800 17px arial;
 }
 
 .lblInfo22 {
-    font: bold 16px arial;
+    font: 800 17px arial;
 }
 
 .SelectDate {

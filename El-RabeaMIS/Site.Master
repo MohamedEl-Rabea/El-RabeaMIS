@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>El-Rabea MIS</title>
-    <link rel="stylesheet" href="Css/Prices_List_Style_Sheet.css" type="text/css" />
+    <link rel="stylesheet" href="Css/Prices_List_Style_Sheet_1.css" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

@@ -69,7 +69,7 @@
             var printContent = document.getElementById(divId);
             var WinPrint = window.open('', '', 'height=auto,width=auto,resizable=1,scrollbars=1,toolbar=1,sta­tus=0');
             WinPrint.document.write('<html><head><title></title>');
-            WinPrint.document.write('<link rel="stylesheet" href="CSS/Prices_List_Style_Sheet.css" type="text/css" />');
+            WinPrint.document.write('<link rel="stylesheet" href="CSS/Prices_List_Style_Sheet_1.css" type="text/css" />');
             WinPrint.document.write('</head><body >');
             WinPrint.document.write(printContent.innerHTML);
             WinPrint.document.write('</body></html>');

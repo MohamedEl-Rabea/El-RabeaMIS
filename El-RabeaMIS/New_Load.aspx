@@ -107,7 +107,7 @@
             var printContent = document.getElementById(divId);
             var WinPrint = window.open('', '', 'height=auto,width=auto,resizable=1,scrollbars=1,toolbar=1,sta­tus=0');
             WinPrint.document.write('<html><head><title></title>');
-            WinPrint.document.write('<link rel="stylesheet" href="CSS/Prices_List_Style_Sheet.css" type="text/css" />');
+            WinPrint.document.write('<link rel="stylesheet" href="CSS/Prices_List_Style_Sheet_1.css" type="text/css" />');
             WinPrint.document.write('</head><body >');
             WinPrint.document.write(printContent.innerHTML);
             WinPrint.document.write('</body></html>');
@@ -359,7 +359,7 @@
             </table>
         </header>
         <div id="DivToPrint">
-            <section class="ContactsSection" id="OriginSection" style="border-radius: 8px; width: 99%; text-align: right; direction: rtl; padding: 10px; margin-bottom: 10px; border-bottom: 1px solid black; min-height: 260px;">
+            <section class="ContactsSection" id="OriginSection" style="border-radius: 8px; width: 99%; text-align: right; direction: rtl; padding: 10px;padding-bottom: 2px; margin-bottom: 10px; border-bottom: 1px solid black; min-height: 260px;">
                 <header class="Prices_Offer_SubHeaderBill" style="margin-bottom: 10px;">
                     <div style="border: 1px solid black;">
                         <table style="width: 100%">
@@ -382,19 +382,19 @@
                             <asp:Label ID="Label13" runat="server" Text="اسم العميل : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 150px">
-                            <asp:Label ID="lblClientName" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblClientName" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="Label12" runat="server" Text="رقم مسلسل : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td>
-                            <asp:Label ID="lblID" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblID" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="Label15" runat="server" Text="رقم السيارة : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 80px">
-                            <asp:Label ID="lblCarNumber" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblCarNumber" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -407,19 +407,19 @@
                             <asp:Label ID="Label11" runat="server" Text="اسم السواق : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 80px">
-                            <asp:Label ID="lblDriver" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblDriver" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="Label17" runat="server" Text="نوع الحموله : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 70px">
-                            <asp:Label ID="lblLoadType" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblLoadType" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="labelCount" runat="server" Text="العدد : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td>
-                            <asp:Label ID="lblCount" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblCount" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -432,19 +432,19 @@
                             <asp:Label ID="Label19" runat="server" Text="التاريخ : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 70px">
-                            <asp:Label ID="lblDate" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblDate" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="Label22" runat="server" Text="وقت القائم : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 60px">
-                            <asp:Label ID="lblFilledTime" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblFilledTime" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="lblTime" runat="server" Text="وقت الفارغ : " CssClass="lblInfo"></asp:Label>
                         </td>
                         <td style="width: 60px">
-                            <asp:Label ID="lblEmptyTime" runat="server" CssClass="lblInfo"></asp:Label>
+                            <asp:Label ID="lblEmptyTime" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -474,7 +474,7 @@
                                 <asp:Label ID="Label14" runat="server" Text=" الوزن القائم " CssClass="lblInfo11"></asp:Label>
                             </td>
                             <td style="width: 80px; text-align: center; border: 1px solid black">
-                                <asp:Label ID="lblFilledLoad" runat="server" CssClass="lblInfo22"></asp:Label>
+                                <asp:Label ID="lblFilledLoad" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                             </td>
                         </tr>
                         <tr>
@@ -487,7 +487,7 @@
                                 <asp:Label ID="Label16" runat="server" Text=" الوزن الفارغ " CssClass="lblInfo11"></asp:Label>
                             </td>
                             <td style="width: 80px; text-align: center; border: 1px solid black">
-                                <asp:Label ID="lblEmptyLoad" runat="server" CssClass="lblInfo22"></asp:Label>
+                                <asp:Label ID="lblEmptyLoad" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                             </td>
                         </tr>
                         <tr>
@@ -500,13 +500,13 @@
                                 <asp:Label ID="Label18" runat="server" Text=" الوزن الصافى " CssClass="lblInfo11"></asp:Label>
                             </td>
                             <td style="width: 80px; text-align: center; border: 1px solid black">
-                                <asp:Label ID="lblNetLoad" runat="server" CssClass="lblInfo22"></asp:Label>
+                                <asp:Label ID="lblNetLoad" runat="server" Font-Bold="true" Font-Size="Medium" Font-Names="arial"></asp:Label>
                             </td>
                         </tr>
                     </tbody>
                 </table>
                 <asp:Panel runat="server" ID="PanelFooter1" Visible="false">
-                    <footer style="clear: both; width: 100%; text-align: center">
+                    <footer style="clear: both; width: 100%; text-align: center; padding: 0; margin: 0">
                         <p style="font: bold 14px arial; margin: 0; padding: 0">الفارغ على مسئولية السائق</p>
                     </footer>
                 </asp:Panel>
